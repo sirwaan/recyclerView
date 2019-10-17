@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_in_recyclerViewModel"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="20dp"
+    app:cardBackgroundColor="@color/colorAccent"
+    >
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_in_recyclerViewModel"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/download"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/textView_in_recyclerViewModel"
+        android:text="BBC sport"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
